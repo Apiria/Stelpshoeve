@@ -144,10 +144,31 @@ body{
 .slider{
    
     border:1px solid #fff;
-    margin:20px 0px 0px 0px;
+    margin:15px 0px 0px 0px;
     width:954px;
     height:281px;
+    
   
 }	
 	
+/** ========================= /
+/* == contentblock == */
+/* ========================= **/
+
+.textblock{
+    background-image:url(images/bgcontent.jpg);
+    height:500px;
+    width:70%;
+    margin:20px 0px 0px 0px;
+    border:1px solid #dbdbda;
+    float:left;
+}
+
+.contactblock{
+    background-color:#3f542b;
+    height:44px;
+    width:27%;
+    margin:20px 5px 0px 0px;
+    float:right;
 	
+}
