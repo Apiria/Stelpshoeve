@@ -177,28 +177,24 @@ body{
     margin:20px 0px 0px 0px;
 }
 
-.content-frame{
-    background-color:#eaeaea;
-    border:1px solid #dbdbd9;
-    width:650px;
-    min-height:300px;
-    
-}
+    .content-frame{
+	background-color:#eaeaea;
+	border:1px solid #dbdbd9;
+	width:650px;
+	min-height:300px;
+    }
 
-.content-header{
-    
-    background-image:url("images/content-header-bg.jpg");
-    height:35px;
-    border-bottom:1px solid #78975d;
-    padding-top:7px;
-    padding-left:15px;
+	.content-header{
+	    background-image:url("images/content-header-bg.jpg");
+	    height:35px;
+	    border-bottom:1px solid #78975d;
+	    padding-top:7px;
+	    padding-left:15px;
+	}
 
-}
-
-.content-header h1{
-    font-family:Arial;
-    color:#fff;
-    font-size:30px;
-    font-weight:bold;
-    
-}
+	    .content-header h1{
+		font-family:Arial;
+		color:#fff;
+		font-size:30px;
+		font-weight:bold;
+	    }
