@@ -53,7 +53,7 @@ table {
 
 body{
     background-color:#dce7cd;
-    background-image:url(images/bg.jpg);
+    background-image:url(images/header-bg.png);
     background-repeat: repeat-x;
 }
 
@@ -78,12 +78,29 @@ body{
 }
 
 /** ========================= /
+/* == top-bar == */
+/* ========================= **/
+
+.top-bar{
+    background: #96bc73;
+    background: -moz-linear-gradient(top,  #96bc73 0%, #7e9e61 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#96bc73), color-stop(100%,#7e9e61));
+    background: -webkit-linear-gradient(top,  #96bc73 0%,#7e9e61 100%);
+    background: -o-linear-gradient(top,  #96bc73 0%,#7e9e61 100%);
+    background: -ms-linear-gradient(top,  #96bc73 0%,#7e9e61 100%);
+    background: linear-gradient(to bottom,  #96bc73 0%,#7e9e61 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#96bc73', endColorstr='#7e9e61',GradientType=0 );
+    height:28px;
+    border-bottom:1px solid #6d7a5a;
+}
+
+/** ========================= /
 /* == Container == */
 /* ========================= **/
 
 .container{
     width:960px;
-    margin:10px auto 0;
+    margin:0px auto 0;
     
 }
 
@@ -92,7 +109,7 @@ body{
 /* ========================= **/
 
 .header{
-    margin:28px 0px 20px 0px;
+    margin:0px 0px 20px 0px;
 }
 
     .vacancies{
@@ -152,23 +169,36 @@ body{
 }	
 	
 /** ========================= /
-/* == contentblock == */
+/* == content-frame == */
 /* ========================= **/
 
-.textblock{
-    background-image:url(images/bgcontent.jpg);
-    height:500px;
-    width:70%;
+.content-frame-holder{
+    
     margin:20px 0px 0px 0px;
-    border:1px solid #dbdbda;
-    float:left;
 }
 
-.contactblock{
-    background-color:#3f542b;
-    height:44px;
-    width:27%;
-    margin:20px 5px 0px 0px;
-    float:right;
-	
+.content-frame{
+    background-color:#eaeaea;
+    border:1px solid #dbdbd9;
+    width:650px;
+    min-height:300px;
+    
+}
+
+.content-header{
+    
+    background-image:url("images/content-header-bg.jpg");
+    height:35px;
+    border-bottom:1px solid #78975d;
+    padding-top:7px;
+    padding-left:15px;
+
+}
+
+.content-header h1{
+    font-family:Arial;
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+    
 }
