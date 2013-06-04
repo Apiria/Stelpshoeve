@@ -47,6 +47,123 @@ table {
 	border-spacing: 0;
 }
 
+/**
+* ============
+* === Fonts ===
+* ============
+**/
+h1 {
+    font-family:Arial;
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+}
+
+h2 {
+    font-family:Arial;
+    color:#93ae7b;
+    font-size:16px;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+h2 a {
+
+}
+
+h2 a:hover {
+
+}
+
+h3 {
+    
+}
+
+h3 a {
+
+}
+
+h3 a:hover {
+
+}
+
+h4 {
+    
+}
+
+h4 a {
+
+}
+
+h4 a:hover{
+
+}
+
+h5 {
+    
+}
+
+h5 a {
+
+}
+
+h5 a:hover {
+
+}
+
+h6 {
+    
+}
+
+p {
+    font-family:Arial;
+    font-size:16px;
+    color:#333333;
+    line-height:22px;
+    padding:5px 0px 0px 15px;
+    margin-bottom:20px;
+}
+
+ul {
+    
+}
+
+ol {
+    
+}
+
+li {
+    
+}
+
+a {
+    
+}
+
+a:hover {
+    
+}
+
+pre {
+    
+}
+
+blockquote {
+    
+}
+
+blockquote:before {
+
+}
+
+blockquote:after {
+
+}
+
+strong {
+    font-weight:bold;
+}
+
 /** ========================= /
 /* == Base == */
 /* ========================= **/
@@ -101,7 +218,6 @@ body{
 .container{
     width:960px;
     margin:0px auto 0;
-    
 }
 
 /** ========================= /
@@ -146,8 +262,6 @@ body{
         float:left;
         text-transform:uppercase;
         padding:8px 12px;
-	        
-        
     }
         .menu li a{
             text-decoration:none;
@@ -164,8 +278,6 @@ body{
     margin:15px 0px 0px 0px;
     width:954px;
     height:281px;
-    
-  
 }	
 	
 /** ========================= /
@@ -173,16 +285,20 @@ body{
 /* ========================= **/
 
 .content-frame-holder{
-    
     margin:20px 0px 0px 0px;
 }
 
     .content-frame{
+        float:left;
 	background-color:#eaeaea;
 	border:1px solid #dbdbd9;
 	width:650px;
 	min-height:300px;
     }
+    
+        .content p{
+            margin:20px 10px 20px 10px;
+        }
 
 	.content-header{
 	    background-image:url("images/content-header-bg.jpg");
@@ -198,3 +314,33 @@ body{
 		font-size:30px;
 		font-weight:bold;
 	    }
+            
+    .side-frame-holder{
+        float:right;
+        background-color:#eaeaea;
+        border:1px solid #dbdcd9;
+        height:220px;
+        width:290px; 
+    }
+
+        .side-frame-header{
+            background-image:url("images/side-frame-header.jpg");
+            height:35px;
+            padding-top:7px;
+            padding-left:15px;
+        }
+        
+        .side-frame-content{
+            background-color:#dce7cd;
+            width:270px;
+            height:170px;
+            margin-left:10px;
+        }
+        
+            .side-frame-content p{
+                 color:#333333;
+             }
+             
+             .postcode{
+                 margin-bottom:20px;
+             }
