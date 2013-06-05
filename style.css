@@ -137,7 +137,10 @@ li {
 }
 
 a {
-    
+    font-family:Arial;
+    font-size:12px;
+    color:#354b20;
+    text-decoration:none;
 }
 
 a:hover {
@@ -350,13 +353,35 @@ body{
 /* == footer == */
 /* ========================= **/
 
+.footer-holder{
+    height:46;
+}
+
 .footer-top{
     background-color:#83a464;
-    border:1px solid #71835e;
+    border-top:1px solid #71835e;
     height:25px;
 }
 
+    .footer-links p{
+        float:left;
+        width:500px;
+    }
+    
+    .footer-tel p{
+        float:center;
+    }
+    
+        .footer-tel p{
+            font-size:12px;
+            color:#354b20;
+        }
+
 .footer-bottom{
     background-color:#354b20;
-    height:25px;
+    height:20px;
 }
+
+
+
+
