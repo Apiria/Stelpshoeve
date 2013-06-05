@@ -218,6 +218,7 @@ body{
 .container{
     width:960px;
     margin:0px auto 0;
+    min-height:1200px;
 }
 
 /** ========================= /
@@ -344,3 +345,18 @@ body{
              .postcode{
                  margin-bottom:20px;
              }
+             
+/** ========================= /
+/* == footer == */
+/* ========================= **/
+
+.footer-top{
+    background-color:#83a464;
+    border:1px solid #71835e;
+    height:25px;
+}
+
+.footer-bottom{
+    background-color:#354b20;
+    height:25px;
+}
