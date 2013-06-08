@@ -170,6 +170,10 @@ strong {
 /* == Base == */
 /* ========================= **/
 
+html,body{
+    height:100%;
+}
+
 body{
     background-color:#dce7cd;
     background-image:url(images/header-bg.png);
@@ -358,6 +362,9 @@ body{
 
 .footer-holder{
     margin-top:20px;
+    position:absolute;
+    bottom:0;
+    width:100%;
 }
 
 .footer-top{
