@@ -63,7 +63,7 @@ h2 {
     font-family:Arial;
     color:#93ae7b;
     font-size:16px;
-    margin-left:20px;
+    margin-bottom:5px;
     font-weight:bold;
 }
 
@@ -120,7 +120,6 @@ p {
     font-size:16px;
     color:#333333;
     line-height:22px;
-    padding:5px 0px 0px 15px;
     margin-bottom:20px;
 }
 
@@ -221,7 +220,6 @@ body{
 .container{
     width:960px;
     margin:0px auto 0;
-    min-height:1200px;
 }
 
 /** ========================= /
@@ -300,10 +298,6 @@ body{
 	min-height:300px;
     }
     
-        .content p{
-            margin:20px 10px 20px 10px;
-        }
-
 	.content-header{
 	    background-image:url("images/content-header-bg.jpg");
 	    height:35px;
@@ -318,6 +312,10 @@ body{
 		font-size:30px;
 		font-weight:bold;
 	    }
+            
+                .content{
+                    padding:15px;
+                }
             
     .side-frame-holder{
         float:right;
@@ -334,6 +332,10 @@ body{
             padding-left:15px;
         }
         
+            .side-frame-header h1{
+                font-size:23px;
+            }
+        
         .side-frame-content{
             background-color:#dce7cd;
             width:270px;
@@ -343,6 +345,7 @@ body{
         
             .side-frame-content p{
                  color:#333333;
+                 padding:10px;
              }
              
              .postcode{
@@ -354,32 +357,47 @@ body{
 /* ========================= **/
 
 .footer-holder{
-    height:46;
+    margin-top:20px;
 }
 
 .footer-top{
     background-color:#83a464;
     border-top:1px solid #71835e;
     height:25px;
+}   
+
+    .footer-links ul{
+        float:left;
 }
 
-    .footer-top{
+    .footer-links li{
         float:left;
-        width:500px;
+        margin-left:4px
     }
     
-    .footer-tel p{
-        float:center;
-    }
+        .footer-links li a{
+            line-height:25px;
+        }
     
+    .footer-tel{
+        float:right;
+    }
+        
         .footer-tel p{
             font-size:12px;
             color:#354b20;
+            margin-bottom:0px;
+            line-height:25px;
         }
 
 .footer-bottom{
     background-color:#354b20;
     height:20px;
+}
+
+.footer-bottom p{
+    color:#fff;
+    font-size:10px;
 }
 
 
