@@ -53,14 +53,12 @@ table {
 * ============
 **/
 h1 {
-    font-family:Arial;
     color:#fff;
     font-size:30px;
     font-weight:bold;
 }
 
 h2 {
-    font-family:Arial;
     color:#93ae7b;
     font-size:16px;
     margin-bottom:5px;
@@ -116,7 +114,6 @@ h6 {
 }
 
 p {
-    font-family:Arial;
     font-size:16px;
     color:#333333;
     line-height:22px;
@@ -132,13 +129,14 @@ ol {
 }
 
 li {
-    
+    font-size:16px;
+    color:#333333;
+    line-height:22px;
 }
 
 a {
-    font-family:Arial;
-    font-size:12px;
-    color:#354b20;
+    font-size:16px;
+    color:#83a464;
     text-decoration:none;
 }
 
@@ -166,6 +164,30 @@ strong {
     font-weight:bold;
 }
 
+table{
+    width:100%;
+    margin-top:15px;
+    border:1px solid #ccc;
+    font-size:14px;
+}
+
+tr{
+    
+}
+
+th{
+    font-weight:bold;
+    border-bottom:1px solid #ccc;
+    padding:7px 5px;
+}
+
+td{
+    padding:7px 5px;
+}
+
+td+td{
+    border-left:1px solid #ccc;
+}
 /** ========================= /
 /* == Base == */
 /* ========================= **/
@@ -175,6 +197,7 @@ html,body{
 }
 
 body{
+    font-family:Arial;
     background-color:#dce7cd;
     background-image:url(images/header-bg.png);
     background-repeat: repeat-x;
@@ -357,6 +380,14 @@ body{
              }
              
 /** ========================= /
+/* == Table  == */
+/* ========================= **/
+
+.pritty-table span{
+    float:right;
+}
+
+/** ========================= /
 /* == footer == */
 /* ========================= **/
 
@@ -384,6 +415,10 @@ body{
     
         .footer-links li a{
             line-height:25px;
+            font-family:Arial;
+            font-size:12px;
+            color:#354b20;
+            text-decoration:none;
         }
     
     .footer-tel{
