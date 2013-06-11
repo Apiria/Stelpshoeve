@@ -315,7 +315,7 @@ body{
 /* ========================= **/
 
 .content-frame-holder{
-    margin:20px 0px 0px 0px;
+    margin:20px 0px 50px 0px;
 }
 
     .content-frame{
@@ -388,15 +388,73 @@ body{
     float:right;
 }
 
+.clean-table{
+    border:0;
+}
+
+    .clean-table td{
+        border:0;
+    }
+
+    .clean-table tr{
+        border-bottom:1px dashed #ccc;
+    }
+
+    .clean-table th{
+        text-align:left;
+    }
+    
+
+/** ========================= /
+/* == reserveren == */
+/* ========================= **/ 
+
+.reserve-button-holder{
+    
+}
+
+    .reserve-button-text {
+        width:470px;
+        float:left;
+    }
+    
+        .reserve-button-text p {
+            text-align:right;
+            line-height:45px;
+            margin:0;
+            font-size:20px;
+            font-weight:bold;
+            font-style:italic;
+            color:#7e9e61;
+        }
+    
+    .reserve-button {
+        width:130px;
+        float:right;
+    }
+
+.link-button{
+    border:1px solid #364c21;
+    height:40px;
+    width:100px;
+    margin:0 auto;
+    background-color:#78975d;
+    color:#fff;
+    line-height:40px;
+    display:block;
+    text-align:center;
+}
+
+
 /** ========================= /
 /* == footer == */
 /* ========================= **/
 
 .footer-holder{
-    margin-top:20px;
-    position:relative;
-    bottom:0;
+    clear:both;
     width:100%;
+    margin:auto;
+   
 }
 
 .footer-top{
