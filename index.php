@@ -20,14 +20,7 @@ and open the template in the editor.
                     <img src="images/vacancies.png" alt="vacancies">
                 </div>
             </div>
-            <ul class="menu cf">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="#">Activiteiten</a></li>
-                <li><a href="#">Prijzen en Arrangementen</a></li>
-                <li><a href="#">Fotos</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <?php include("includes/menu.php"); ?>
             <div class="slider">
                 <img src="images/slider-test-pic.jpg" class="sliderimg">	    
             </div>
@@ -49,37 +42,29 @@ and open the template in the editor.
                             Holwerd is een uiterst geschikte plaats voor een mooie vakantie in fries Waddengebied.</p>
                     </div>
                 </div>
-                <div class="side-frame-holder cf">
-                    <div class="side-frame-header">
-                        <h1>Contact</h1>
-                    </div>
-                    <div class="side-frame-content">
-                        <p><strong>Stelpspad 10<br>Holwerd<br>9151JN</strong></p>                      
-                        <p><strong>Telefoon:</strong> 0519 561 268<br>
-                            <strong>E-Mail:</strong>info@destelpshoeve.nl</p>
-                    </div>
+                <?php include("includes/contact-box.php"); ?>
+            </div>
+        </div>
+    </div>
+    <div class="footer-holder">
+        <div class="footer-top cf">
+            <div class="container cf">
+                <ul class="footer-links">
+                    <li><a href="#">Home / </a></li>
+                    <li><a href="#">Service / </a></li>
+                    <li><a href="#">Activiteiten / </a></li>
+                    <li><a href="#">Prijzen en Arrangementen / </a></li>
+                    <li><a href="#">Fotos / </a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="footer-tel"><p>Tel: 0516 561 268</p></div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <p>Copyright 2013 - De Stelpshoeve</p>
                 </div>
             </div>
         </div>
-        <div class="footer-holder">
-            <div class="footer-top cf">
-                <div class="container cf">
-                    <ul class="footer-links">
-                        <li><a href="#">Home / </a></li>
-                        <li><a href="#">Service / </a></li>
-                        <li><a href="#">Activiteiten / </a></li>
-                        <li><a href="#">Prijzen en Arrangementen / </a></li>
-                        <li><a href="#">Fotos / </a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <div class="footer-tel"><p>Tel: 0516 561 268</p></div>
-                </div>
-                <div class="footer-bottom">
-                    <div class="container">
-                        <p>Copyright 2013 - De Stelpshoeve</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+    </div>
+</body>
 </html>

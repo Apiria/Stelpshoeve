@@ -349,7 +349,7 @@ body{
         float:right;
         background-color:#eaeaea;
         border:1px solid #dbdcd9;
-        height:220px;
+        height:255px;
         width:290px; 
     }
 
@@ -367,19 +367,23 @@ body{
         .side-frame-content{
             background-color:#dce7cd;
             width:270px;
-            height:170px;
+            height:190px;
             margin-left:10px;
+            padding-top:10px;
         }
         
-            .side-frame-content p{
-                 color:#333333;
-                 padding:10px;
-             }
-             
-             .postcode{
-                 margin-bottom:20px;
-             }
-             
+        .contact-table{
+            border:0;
+        }
+        
+        .contact-table td{
+            border0;
+        }
+        
+        .contact-table th{
+            border:0;
+            text-align:left;
+        }
 /** ========================= /
 /* == Table  == */
 /* ========================= **/
