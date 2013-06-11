@@ -323,7 +323,7 @@ body{
 	background-color:#eaeaea;
 	border:1px solid #dbdbd9;
 	width:650px;
-	min-height:300px;
+	min-height:658px;
     }
     
 	.content-header{
@@ -394,7 +394,7 @@ body{
 
 .footer-holder{
     margin-top:20px;
-    position:absolute;
+    position:relative;
     bottom:0;
     width:100%;
 }
