@@ -36,6 +36,7 @@
                         <p>De meeste mensen kennen Holwerd als de aanlegplaats voor de boot naar  Ameland. Holwerd heeft zelf echter ook veel te bieden. In het dorpje achter de dijk kunt U volop genieten van de rust en de schoonheid van het waddengebied. In de omgeving van het dorp zijn veel mogelijkheden om interessante en leuke uitstapjes te maken te wandelen en te fietsen.
                             Als u door het dorp zelf loopt krijgt u het gevoel in vroegere tijden te verkeren. De kern van het dorp heeft een bijzonder karater dankzij de vele oude huisjes en de gezellige straatjes die worden gekenmerkt door de hoogteverschillen in stoepen en trappen en kleine steegjes.
                             Holwerd is een uiterst geschikte plaats voor een mooie vakantie in fries Waddengebied.</p>
+                        <img class="image" src="http://localhost/menu/images/omgeving-holwerd.jpg">
                     </div>
                 </div>
                 <?php include("includes/contact-box.php"); ?>

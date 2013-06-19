@@ -505,6 +505,15 @@ body{
     font-size:10px;
 }
 
+/** ========================= /
+/* == images == */
+/* ========================= **/
 
+.image{
+    width:620px;
+}
 
-
+.foto img{
+    width:620px;
+    margin-bottom:20px;
+}

@@ -12,5 +12,6 @@
     <p>Er lopen hele mooie fietsroutes door en om holwerd. Deze routes zijn verkrijgbaar in de accommodatie. Wij kunnen fietsen voor u regelen.</p>
     <h2>Dinner/ontbijt service</h2>
     <p>Mocht u geen zin hebben om te koken dan kunnen wij voor u een barbeque of een gourmet regelen ook kunt u een warm en koud buffet bestellen . Bij de snackbar kunt u patat en snacks of ijs bestellen. Ook kan er iemand op ambachtelijke wijze vis voor u komen roken of voor een ontbijt  gezorgen. Mogelijkheden en prijzen op aanvraag.</p>
+    <img class="image" src="http://localhost/menu/images/kinderhoek2.jpg">
 </div>
 <?php include("includes/footer.php"); ?>
