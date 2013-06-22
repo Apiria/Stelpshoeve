@@ -2,7 +2,8 @@
     <div class="side-frame-header">
         <h1>Contact</h1>
     </div>
-    <div class="side-frame-content">
+    <div class="side-frame-content cf">
+        <img class="contact-image" src="<?php echo siteUrl(); ?>/images/contact-image.jpg">
         <table class="contact-table">
             <tr>
                 <th>Stelpspad 10</th>
@@ -14,7 +15,8 @@
                 <th>Holwerd</th>
             </tr>
         </table>
-        <table class="contact-table">
+        
+        <table class="contact-table-2">
             <tr>
                 <th>Telefoon:</th>
                 <td>0519 561 268</td>
