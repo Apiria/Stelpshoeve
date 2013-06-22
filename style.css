@@ -513,7 +513,11 @@ body{
     width:620px;
 }
 
-.foto img{
-    width:620px;
+.foto-row {
+    margin-bottom:15px;
+}
+
+.foto-row a+a {
     margin-bottom:20px;
+    margin-left:15px;
 }

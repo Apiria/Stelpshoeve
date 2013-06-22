@@ -20,6 +20,6 @@
         Stadswandeling Dokkum<br>
         De tuinen in buitenpost</p>
     <p>Voor meer informatie over Noord-Oost Friesland  zie  <a href="http://www.friesvakantieland.nl">www.friesvakantieland.nl</a></p>
-    <img class="image" src="http://localhost/menu/images/zee-uitzicht.jpg">
+    <img class="image" src="<?php echo siteUrl(); ?>/images/zee-uitzicht.jpg">
 </div>
 <?php include("includes/footer.php"); ?>

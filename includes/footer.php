@@ -23,6 +23,8 @@
                 </div>
             </div>
         </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/lightbox.js"></script>
     </body>
 </html>
 
