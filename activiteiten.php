@@ -19,6 +19,12 @@
         Aqua zoo Leeuwarden<br>
         Stadswandeling Dokkum<br>
         De tuinen in buitenpost</p>
-    <p>Voor meer informatie over Noord-Oost Friesland  zie  <a href="http://www.friesvakantieland.nl">www.friesvakantieland.nl</a></p>
+    <h2>Meer informatie</h2>
+    <p>Informatie over Holwerd en Noord-Oost Friesland: <a href="http://www.friesvakantieland.nl">www.friesvakantieland.nl</a><br/>
+        Wadlopen en Wadloop-arrangementen: <a href="http://www.wadloop-dijkstra.nl">www.wadloop-dijkstra.nl</a><br/>
+        Tuinen in Friesland: <a href="http://www.rondtuinen.nl">www.rondtuinen.nl</a> of <a href="http://www.opentuinenfriesland.nl">www.opentuinenfriesland.nl</a><br/>
+        Dokkum: <a href="http://www.dokkum.nl">www.dokkum.nl</a><br/>
+        Recreatiegebied Lauwersland: <a href="http://www.lauwersland.nl">www.lauwersland.nl</a></p>
+    <img class="image" src="<?php echo siteUrl(); ?>/images/zee-uitzicht.jpg" alt="Zee uitzicht">
 </div>
 <?php include("includes/footer.php"); ?>

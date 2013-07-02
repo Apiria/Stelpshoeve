@@ -1,13 +1,15 @@
-<!--
-To change this template, choose Tools | Templates
-and open the template in the editor.
--->
+<?php 
+function siteUrl(){
+    return "http://localhost/menu";
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>
         <title></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="http://localhost/menu/style.css" type="text/css">
+        <link href="<?php echo siteUrl(); ?>/css/lightbox.css" rel="stylesheet" />
+        <link rel="stylesheet" href="<?php echo siteUrl(); ?>/style.css" type="text/css">
     </head>
     <body>
         <div class="top-bar"></div>

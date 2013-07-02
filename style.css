@@ -349,8 +349,8 @@ body{
         float:right;
         background-color:#eaeaea;
         border:1px solid #dbdcd9;
-        height:255px;
-        width:290px; 
+        min-height:200px;
+        width:290px;
     }
 
         .side-frame-header{
@@ -367,13 +367,16 @@ body{
         .side-frame-content{
             background-color:#dce7cd;
             width:270px;
-            height:190px;
+            min-height:200px;
             margin-left:10px;
             padding-top:10px;
+            margin-bottom:10px;
         }
         
         .contact-table{
             border:0;
+            float:left;
+            width:120px;
         }
         
         .contact-table td{
@@ -384,6 +387,28 @@ body{
             border:0;
             text-align:left;
         }
+        
+        .contact-image{
+            float:left;
+            border:1px solid #354b20;
+            margin:5px;
+            
+        }
+        
+.contact-table-2{
+    border:0;
+    width:130px;
+}
+
+    .contact-table-2 td{
+        border0;
+    }
+
+    .contact-table-2 th{
+        border:0;
+        text-align:left;
+}
+        
 /** ========================= /
 /* == Table  == */
 /* ========================= **/
@@ -407,8 +432,6 @@ body{
     .clean-table th{
         text-align:left;
     }
-    
-
 /** ========================= /
 /* == reserveren == */
 /* ========================= **/ 
@@ -505,6 +528,55 @@ body{
     font-size:10px;
 }
 
+/** ========================= /
+/* == images == */
+/* ========================= **/
 
+.image{
+    width:620px;
+}
 
+.foto-row {
+    margin-bottom:15px;
+}
 
+.foto-row a+a {
+    margin-bottom:20px;
+    margin-left:15px;
+}
+
+/** ========================= /
+/* == Contact form == */
+/* ========================= **/
+
+label{
+    margin-bottom:20px;
+}
+
+input{
+    margin-bottom:20px;
+    height:20px;
+    width:300px;
+}
+
+#name{
+    margin-left:80px;
+}
+
+#email{
+    margin-left:38px;
+}
+
+.labelquestion{
+    display:block;
+}
+
+#submit{
+    height:30px;
+    width:200px;
+    background-color:#96bc73;
+    border-color:#96bc73;
+    color:#333333;
+    font-weight:bold;
+    margin:30px 0px 0px 200px;
+}
