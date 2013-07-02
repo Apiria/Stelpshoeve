@@ -18,7 +18,7 @@
             </div>
             <?php include("includes/menu.php"); ?>
             <div class="slider">
-                <img src="images/slider-test-pic.jpg" class="sliderimg">	    
+                <img src="images/slider-test-pic.jpg" alt="De Stelpshoeve" class="sliderimg">	    
             </div>
             <div class="content-frame-holder cf">
                 <div class="content-frame">
@@ -36,7 +36,7 @@
                         <p>De meeste mensen kennen Holwerd als de aanlegplaats voor de boot naar  Ameland. Holwerd heeft zelf echter ook veel te bieden. In het dorpje achter de dijk kunt U volop genieten van de rust en de schoonheid van het waddengebied. In de omgeving van het dorp zijn veel mogelijkheden om interessante en leuke uitstapjes te maken te wandelen en te fietsen.
                             Als u door het dorp zelf loopt krijgt u het gevoel in vroegere tijden te verkeren. De kern van het dorp heeft een bijzonder karater dankzij de vele oude huisjes en de gezellige straatjes die worden gekenmerkt door de hoogteverschillen in stoepen en trappen en kleine steegjes.
                             Holwerd is een uiterst geschikte plaats voor een mooie vakantie in fries Waddengebied.</p>
-                        <img class="image" src="http://localhost/menu/images/omgeving-holwerd.jpg">
+                        <img class="image" src="http://localhost/menu/images/omgeving-holwerd.jpg" alt="Omgeving Holwerd">
                     </div>
                 </div>
                 <?php include("includes/contact-box.php"); ?>

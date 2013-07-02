@@ -25,6 +25,6 @@
         Tuinen in Friesland: <a href="http://www.rondtuinen.nl">www.rondtuinen.nl</a> of <a href="http://www.opentuinenfriesland.nl">www.opentuinenfriesland.nl</a><br/>
         Dokkum: <a href="http://www.dokkum.nl">www.dokkum.nl</a><br/>
         Recreatiegebied Lauwersland: <a href="http://www.lauwersland.nl">www.lauwersland.nl</a></p>
-    <img class="image" src="<?php echo siteUrl(); ?>/images/zee-uitzicht.jpg">
+    <img class="image" src="<?php echo siteUrl(); ?>/images/zee-uitzicht.jpg" alt="Zee uitzicht">
 </div>
 <?php include("includes/footer.php"); ?>
