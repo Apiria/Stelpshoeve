@@ -544,3 +544,39 @@ body{
     margin-bottom:20px;
     margin-left:15px;
 }
+
+/** ========================= /
+/* == Contact form == */
+/* ========================= **/
+
+label{
+    margin-bottom:20px;
+}
+
+input{
+    margin-bottom:20px;
+    height:20px;
+    width:300px;
+}
+
+#Name{
+    margin-left:80px;
+}
+
+#email{
+    margin-left:29px;
+}
+
+.labelvraag{
+    display:block;
+}
+
+#submit{
+    height:30px;
+    width:200px;
+    background-color:#96bc73;
+    border-color:#96bc73;
+    color:#333333;
+    font-weight:bold;
+    margin:30px 0px 0px 200px;
+}
