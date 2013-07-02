@@ -559,7 +559,7 @@ input{
     width:300px;
 }
 
-#Name{
+#name{
     margin-left:80px;
 }
 
@@ -567,7 +567,7 @@ input{
     margin-left:29px;
 }
 
-.labelvraag{
+.labelquestion{
     display:block;
 }
 
