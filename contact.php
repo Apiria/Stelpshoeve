@@ -50,7 +50,7 @@ if(filter_has_var(INPUT_POST, 'mail_submit'))
 	if($mailer->send($mailMessage)) 
 	{
 		
-		$successMessage = 'Contact form has been submitted successfully!';
+		$successMessage = 'Contact formulier is succesvol verzonden!';
 		
 		if(isAjaxRequest()) 
 		{
@@ -70,7 +70,7 @@ if(filter_has_var(INPUT_POST, 'mail_submit'))
 	else 
 	{
 		
-		$failureMessage = 'Contact form could not be sent. Please try again or mail klantenservice@destelpshoeve.nl';
+		$failureMessage = 'Het contact formulier kon niet worden verzonden. Probeert u het nog eens of stuur uw vraag direct naar: klantenservice@destelpshoeve.nl';
 		
 		if(isAjaxRequest())
 		{

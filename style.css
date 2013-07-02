@@ -575,8 +575,34 @@ input{
     height:30px;
     width:200px;
     background-color:#96bc73;
-    border-color:#96bc73;
+    border:none;
     color:#333333;
     font-weight:bold;
     margin:30px 0px 0px 200px;
 }
+
+.success, .failed{
+    line-height:20px;
+    margin-bottom:20px;
+    padding:5px;
+    border:1px solid #fff;
+}
+
+.success{
+    background-color:#93ae7b;
+}
+
+    .success p{
+        color:#fff;
+        margin:0px;
+    }
+    
+.failed{
+    background-color:#CC040A;
+}
+
+    .failed p{
+        margin:0px;
+        color:#fff;
+
+    }
