@@ -1,3 +1,8 @@
+<?php 
+function siteUrl(){
+    return "http://localhost/menu";
+}
+?>
 <!DOCTYPE html>
 <html>
     <head>

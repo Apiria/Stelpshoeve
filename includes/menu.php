@@ -5,4 +5,5 @@
     <li><a href="<?php echo siteUrl(); ?>/prijze-en-arrangementen">Prijzen en Arrangementen</a></li>
     <li><a href="<?php echo siteUrl(); ?>/fotos">Fotos</a></li>
     <li><a href="<?php echo siteUrl(); ?>/contact">Contact</a></li>
+    <li><a href="<?php echo siteUrl(); ?>/Routekaart">Routekaart</a></li>
 </ul>
