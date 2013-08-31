@@ -1,3 +1,4 @@
+<?php $title = "Routekaart | De Stelpshoeve"; ?>
 <?php include("includes/header.php"); ?>
 <div class="content-header">
     <h1>Routekaart</h1>

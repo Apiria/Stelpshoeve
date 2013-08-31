@@ -1,3 +1,4 @@
+<?php $title = "Contact | De Stelpshoeve"; ?>
 <?php include("includes/header.php"); ?>
 <?php
 $mailResponse = '';
@@ -64,7 +65,7 @@ if (filter_has_var(INPUT_POST, 'mail_submit')) {
         $mailMessage
             ->setSubject('De Stelpshoeve Contact Formulier')
             ->setFrom(array('no-reply@destelpshoeve.nl' => 'no-reply De Stelpshoeve'))
-            ->setTo(array('leon.rowland@gmail.com' => 'De Stelpshoeve'))
+            ->setTo(array('klantenservice@destelpshoeve.nl' => 'De Stelpshoeve'))
             ->setBody($body);
 
         // Swiftmailer transport using default mail
@@ -110,7 +111,7 @@ if (filter_has_var(INPUT_POST, 'mail_submit')) {
     <h1>Contact</h1>
 </div>
 <div class="content cf">
-    <p>vul het onderstaande formulier in en wij nemen zo spoedig mogelijk contact met u op</p>
+    <p>Vul het onderstaande formulier in en wij nemen zo spoedig mogelijk contact met u op.</p>
     <form method="POST">
 <?php if (!empty($mailResponse)): ?>
     <?php if (is_array($mailResponse)): ?>

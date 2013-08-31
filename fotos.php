@@ -1,3 +1,4 @@
+<?php $title = "Fotos | De Stelpshoeve"; ?>
 <?php include("includes/header.php"); ?>
 <div class="content-header">
     <h1>Fotos</h1>

@@ -1,12 +1,12 @@
 <?php 
 function siteUrl(){
-    return "http://localhost/menu";
+    return "http://www.destelpshoeve.nl";
 }
 ?>
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title><?php echo $title; ?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link href="<?php echo siteUrl(); ?>/css/lightbox.css" rel="stylesheet" />
         <link rel="stylesheet" href="<?php echo siteUrl(); ?>/style.css" type="text/css">
@@ -19,7 +19,7 @@ function siteUrl(){
                     <h1><a href="#"><img src="images/logo.png" alt="De Stelpshoeve"></a></h1>
                 </div>
                 <div class="vacancies">
-                    <img src="images/vacancies.png" alt="vacancies">
+                    <a href="http://www.vakantieadressen.nl/beheerpanel/includes/calender.php?id=5ea1649a31336092c05438df996a3e59" target="_blank"><img src="images/vacancies.png" alt="vacancies"></a>
                 </div>
             </div>
             <?php include("menu.php"); ?>
