@@ -15,15 +15,15 @@ function siteUrl(){
         <div class="container">
             <div class="header cf">
                 <div class="logo">
-                    <h1><a href="#"><img src="images/logo.png" alt="De Stelpshoeve"></a></h1>
+                    <h1><a href="<?php echo siteUrl(); ?>"><img src="<?php echo siteUrl(); ?>/images/logo.png" alt="De Stelpshoeve"></a></h1>
                 </div>
                 <div class="vacancies">
-                    <a href="http://www.vakantieadressen.nl/beheerpanel/includes/calender.php?id=5ea1649a31336092c05438df996a3e59" target="_blank"><img src="images/vacancies.png" alt="vacancies"></a>
+                    <a href="http://www.vakantieadressen.nl/beheerpanel/includes/calender.php?id=5ea1649a31336092c05438df996a3e59" target="_blank"><img src="<?php echo siteUrl(); ?>/images/vacancies.png" alt="vacancies"></a>
                 </div>
             </div>
             <?php include("includes/menu.php"); ?>
             <div class="slider">
-                <img src="images/slider-test-pic.jpg" alt="De Stelpshoeve" class="sliderimg">	    
+                <img src="<?php echo siteUrl(); ?>/images/slider-test-pic.jpg" alt="De Stelpshoeve" class="sliderimg">	    
             </div>
             <div class="content-frame-holder cf">
                 <div class="content-frame">
