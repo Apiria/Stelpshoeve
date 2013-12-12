@@ -12,6 +12,8 @@ function isAjaxRequest() {
  * Simple Contact Form 
  */
 if (filter_has_var(INPUT_POST, 'mail_submit')) {
+    if (filter_input (INPUT_POST, 'company' , FILTER_SANITIZE_STRING))
+        exit;
     // Get SwiftMailer
     require 'lib/swift_required.php';
 
@@ -144,6 +146,7 @@ endif; ?>"/>
         <div class="submit">
             <input type="submit" id="submit" name="mail_submit" value="verzenden" />
         </div>
+        <input type="hidden" name="company" value="">
     </form>
 </div>
 <?php include("includes/footer.php"); ?>
